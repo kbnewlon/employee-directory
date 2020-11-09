@@ -4,7 +4,7 @@ import Table from './component/Table';
 import SearchForm from './component/SearchForm';
 import Homepage from './pages/Homepage';
 import Api from './utils/api';
-import SearchForm from './component/SearchForm';
+
 
 class App extends Component {
   state = {
@@ -23,7 +23,7 @@ class App extends Component {
     return (
       <div className="container">
         <Homepage />
-        {console.log(this.state.list)}
+        {/* {console.log(this.state.list)} */}
         <SearchForm />
         <Table list={this.state.list} />
 

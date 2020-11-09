@@ -1,8 +1,11 @@
-import React from 'react';
+import React, {useEffect} from 'react';
+
 import { Image } from "react-bootstrap";
 
 function Table(props) {
 
+  
+console.log(props);
 
   return (
     <table className="table">
@@ -16,19 +19,26 @@ function Table(props) {
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>{props.id}</td>
-          <td className="text-center" />
-          <Image src={props.image} roundedCircle />
-          <td>{props.name}</td>
-          <td>
-            <a href={"tel:" + props.phone}>{props.phone}</a>
-          </td>
-          <td>
-            <a href={"mailto:" + props.email}>{props.email}</a>
-          </td>
-          <td>{props.dob}</td>
-        </tr>
+        {
+          props.list.map((employee, index) => {
+            return (
+              <tr key={index}>
+                <td>{employee.id}</td>
+                <td className="text-center" />
+                <Image src={employee.image} roundedCircle />
+                <td>{employee.name}</td>
+                <td>
+                  <a href={"tel:" + employee.phone}>{employee.phone}</a>
+                </td>
+                <td>
+                  <a href={"mailto:" + employee.email}>{employee.email}</a>
+                </td>
+                <td>{employee.dob}</td>
+              </tr>
+            )
+          }
+          )
+        }
       </tbody>
     </table >
   );
