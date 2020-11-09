@@ -31,9 +31,9 @@ function Table(props) {
         </tr>
       </tbody>
     </table >
-  )
+  );
 
 
-}
+};
 
 export default Table;
