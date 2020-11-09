@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Table from './component/table';
-import Input from './component/input';
+import Table from './component/Table';
+import Input from './component/SearchForm';
+import Homepage from './pages/Homepage';
 import Api from './utils/api';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
+        <Homepage />
         {console.log(this.state.list)}
         <Input />
         <Table list={this.state.list} />
