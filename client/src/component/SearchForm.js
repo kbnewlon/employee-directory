@@ -7,7 +7,7 @@ function SearchForm(props) {
         <div className="uk-container form-container">
             <form>
                 <div className="row justify-content-center">
-                    <label>Search Employee by Name: </label>
+                    <label>Search Employee by First or Last Name: </label>
                     <input
                         name = "search"
                         value = {props.search}
@@ -22,7 +22,6 @@ function SearchForm(props) {
         </div>
 
     )
-
 
 
 }

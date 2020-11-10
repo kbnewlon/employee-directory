@@ -15,7 +15,7 @@ function Table(props) {
       <thead className="thead-dark">
         <tr>
           <th scope="col">Picture</th>
-          <th scope="col" onClick={props.handleSubmit}>Name</th>
+          <th scope="col" onClick={props.handleSubmit} className="name">Name</th>
           <th scope="col">Phone Number</th>
           <th scope="col">Email Address</th>
           <th scope="col">Age</th>

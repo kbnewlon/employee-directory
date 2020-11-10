@@ -41,13 +41,13 @@ This application has been created with an random user API to compile a faux empl
 Copyright (c) 2020, Kayla Newlon. (MIT License)
 
 ## Contributing 
-No guidelines at this time. 
+N/A 
 
 ## Tests
-
+N/A
 
 ## Visuals
-![]();
+![screenshot of employee directory](client/assets/screenshot_employee_directory.PNG)
 
 
 ## Links
