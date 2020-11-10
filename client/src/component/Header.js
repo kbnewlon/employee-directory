@@ -1,7 +1,8 @@
 import React from 'react';
 
 
-function Homepage(){
+
+function Header(){
     return(
 <div>
     <h1>Employee Directory</h1>
@@ -13,4 +14,4 @@ function Homepage(){
 
 
 
-export default Homepage;
+export default Header;

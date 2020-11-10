@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Table from './component/Table';
 import SearchForm from './component/SearchForm';
-import Homepage from './pages/Homepage';
+import Header from './component/Header';
 import Api from './utils/api';
 
 
@@ -22,8 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-        <Homepage />
-        {/* {console.log(this.state.list)} */}
+        <Header />
         <SearchForm />
         <Table list={this.state.list} />
 
