@@ -34,7 +34,7 @@ This application has been created with an random user API to compile a faux empl
 * CSS 
 * JavaScript
 * Axios 
-* React
+* React.js
 * Bootstrap 
 
 ## License

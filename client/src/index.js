@@ -1,3 +1,4 @@
+//this is the second to last stop in this app. index.js pulls from app.js to render
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';

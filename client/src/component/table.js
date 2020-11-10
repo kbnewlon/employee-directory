@@ -1,3 +1,4 @@
+//this component pulls from the API to display the employee information 
 import React, { useEffect } from 'react';
 
 import { Image } from "react-bootstrap";

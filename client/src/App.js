@@ -1,3 +1,4 @@
+//this is where all the magic happens. below are the functions that manipulate the API and make it responsive 
 import React, { Component } from 'react';
 import './App.css';
 import Table from './component/Table';
@@ -46,6 +47,7 @@ class App extends Component {
     })
   };
   
+  //this is where the components come together 
   render() {
     return (
       <div className="container">
