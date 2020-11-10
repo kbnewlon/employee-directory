@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 
-import { Image } from "react-bootstrap";
 
 function Table(props) {
 

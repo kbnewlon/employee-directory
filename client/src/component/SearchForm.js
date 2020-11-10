@@ -1,3 +1,4 @@
+//this is the search input component 
 import React from 'react';
 
 function SearchForm(props) {

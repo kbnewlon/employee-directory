@@ -12,6 +12,7 @@ class App extends Component {
     originalList: [],
     search: ""
   };
+
   componentDidMount() {
     Api.getRandomPeople().then(response => {
       console.log(response.data.results)
@@ -21,6 +22,7 @@ class App extends Component {
       });
     });
   };
+
   handleInputChange = event => {
     const { name, value } = event.target
     this.setState({
@@ -33,7 +35,8 @@ class App extends Component {
     this.setState({
       list: newList
     })
-  }
+  };
+
   handleSubmit = event => {
     const newList = this.state.list.sort((a, b) => {
       return a.name.first.localeCompare(b.name.first)
@@ -41,7 +44,8 @@ class App extends Component {
     this.setState({
       list: newList
     })
-  }
+  };
+  
   render() {
     return (
       <div className="container">

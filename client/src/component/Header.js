@@ -1,3 +1,4 @@
+//this is the component for the pages' header
 import React from 'react';
 
 
