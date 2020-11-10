@@ -52,7 +52,7 @@ N/A
 
 ## Links
 To Repo: https://github.com/kbnewlon/employee-directory
-<br>Visit the deployed app on Heroku to demo:
+<br>Visit the deployed app on Heroku to demo: https://kbn-employee-directory.herokuapp.com/
  
 
 ## Questions 
