@@ -21,7 +21,7 @@ This application has been created with an random user API to compile a faux empl
 ## Installation
 1. Use 'git clone git@github.com:kbnewlon/employee-directory.git' to clone the repo
 2. Install necessary dependencies with 'npm install'
-3. Start the program with 'npm start' or 'node server.js'
+3. Go to localhost:3000 to view the app
 4. Enjoy!
 
 ## Usage
