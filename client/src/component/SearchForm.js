@@ -8,6 +8,8 @@ function SearchForm(props) {
                 <div className="row justify-content-center">
                     <label>Search Employee by Name: </label>
                     <input
+                        name = "search"
+                        value = {props.search}
                         onChange={props.handleInputChange}
                         className="input-box uk-input uk-form-width-medium" type="text"
                         placeholder="Search"
