@@ -1,4 +1,4 @@
-# Progressive Budget Tracker
+# Employee Directory-React
 
 ![issues](https://img.shields.io/github/issues/kbnewlon/employee-directory)
 ![GitHub top language](https://img.shields.io/github/languages/top/kbnewlon/employee-directory)
